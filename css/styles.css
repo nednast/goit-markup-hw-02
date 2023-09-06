@@ -1,16 +1,16 @@
 body {
-  color: #434455;
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
 }
 /* Шапка */
 .logo {
   text-decoration: none;
-  color: #434455;
+  color: #2e2f42;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.54px;
-  line-height: 21px;
+  line-height: 1.03;
 }
 
 .web {
@@ -24,7 +24,7 @@ body {
 
 .menu-link > a {
   text-decoration: none;
-  color: #434455;
+  color: #2e2f42;
   font-weight: 500;
 }
 
@@ -47,7 +47,8 @@ h1 {
   color: #ffffff;
   font-size: 56px;
   letter-spacing: 1.12px;
-  line-height: 60px;
+  line-height: 1.02;
+  text-align: center;
 }
 
 .button-order {
@@ -69,14 +70,85 @@ h1 {
 .cards-characteristics > h3 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.02;
   letter-spacing: 0.4px;
-  color: #2e2f42;
 }
-cards-characteristics > p {
+.text-characteristics {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.02;
   letter-spacing: 0.32px;
   color: #434455;
+}
+/* Секция команда*/
+.team {
+  background-color: #f4f4fd;
+}
+.team > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  line-height: 1.02;
+  text-align: center;
+}
+.team-list {
+  list-style: none;
+}
+.card-team > h3 {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 1.02;
+}
+.card-team > p {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  line-height: 1.02;
+}
+/* Секция портфолио */
+
+.portfolio > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  line-height: 1.02;
+  text-align: center;
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.card-portfolio > h3 {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 1.02;
+}
+
+.card-portfolio > p {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  line-height: 1.02;
+}
+/* Футер */
+footer {
+  background-color: #2e2f42;
+  height: 312px;
+}
+.logo-footer {
+  text-decoration: none;
+  color: #f4f4fd;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+  line-height: 1.03;
+}
+.text-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  line-height: 1.02;
 }
