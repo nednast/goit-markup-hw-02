@@ -1,46 +1,67 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 /* Шапка */
 .logo {
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 0.54px;
-  line-height: 1.03;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
 }
 
-.web {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+.studio {
+  color: #2e2f42;
 }
 
 .menu {
   list-style: none;
 }
 
-.menu-link > a {
+.menu-link {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:focus {
+  color: #404bbf;
+}
 /* Секция контакты */
 .contacts {
+  font-style: normal;
+}
+.list-contacts {
   list-style: none;
 }
 
-.cards-contacts > a {
+.cards-contacts-link {
   text-decoration: none;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.cards-contacts-link:hover {
+  color: #404bbf;
+}
+
+.cards-contacts-link:focus {
+  color: #404bbf;
 }
 /* Секция заказа */
 .order {
   background-color: #2e2f42;
-  height: 600px;
 }
 
 h1 {
